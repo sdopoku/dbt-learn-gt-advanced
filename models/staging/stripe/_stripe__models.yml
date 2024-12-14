@@ -1,0 +1,34 @@
+models:
+  - name: stg_stripe__payments
+    description: ""
+    columns:
+      - name: amount_usd
+        data_type: number
+        description: ""
+
+      - name: created
+        data_type: date
+        description: ""
+
+      - name: payment_id
+        data_type: number
+        description: ""
+        data_tests:
+          - unique
+          - not_null
+
+      - name: order_id
+        data_type: number
+        description: ""
+
+      - name: payment_method
+        data_type: varchar
+        description: ""
+
+      - name: status
+        data_type: varchar
+        description: ""
+
+      - name: _batched_at
+        data_type: timestamp_ltz
+        description: ""

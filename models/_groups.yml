@@ -1,5 +1,5 @@
 groups:
-  - name: marketing 
+  - name: core 
     owner:
-      name: Marketing Group
-      email: marketing@jaffle.com
+      name: Core Group
+      email: core@jaffle.com

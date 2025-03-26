@@ -1,4 +1,5 @@
 models:
   - name: fct_payments
+    description: Public model on payments
     group: core
     access: public
